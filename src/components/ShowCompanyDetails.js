@@ -7,9 +7,7 @@ const ShowCompanyDetails = (props) => {
     const [company, setCompany] = useState(initialData);
     const [showDetais, setShowDetails] = useState(false);
 
-    useEffect(() => {
-        setCompany(props.company);
-    },[]);
+ 
     if(showDetais){
         return(<div className="card">
             <div className="card-header">

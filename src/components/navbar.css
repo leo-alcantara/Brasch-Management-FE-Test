@@ -1,3 +1,16 @@
-.logo {
-    size: 40%;
-}
+
+
+.navbar .nav-link {
+    font-size: 14px;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    text-transform: uppercase;
+  }
+
+  /*.navbar .nav-item.active {
+    border-left: rgb(138, 138, 138) 3px solid;
+  }*/
+
+  .navbar-brand {
+    width: 120px;
+  }
